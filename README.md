@@ -1,5 +1,5 @@
 
-# 🌟 WPF AI Chatbot (Gemini AI)
+# 🌟 AIChatBot - Gemini AI
 
 This is a **modern WPF chatbot** powered by **Google Gemini AI**. It includes a clean **Material Design UI**, **rounded chat bubbles**, and a **close button** for convenience.
 
