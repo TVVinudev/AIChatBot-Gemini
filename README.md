@@ -27,8 +27,8 @@ This is a **modern WPF chatbot** powered by **Google Gemini AI**. It includes a 
 
 ### 2️⃣ **Clone the Repository**
 ```sh
- git clone https://github.com/your-repo/wpf-gemini-chatbot.git
- cd wpf-gemini-chatbot
+ git clone https://github.com/TVVinudev/AIChatBot-Gemini.git
+ cd AIChatBot-Gemini
 ```
 
 ### 3️⃣ **Update API Key in Code**
