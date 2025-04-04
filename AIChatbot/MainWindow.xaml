@@ -1,0 +1,52 @@
+﻿<Window x:Class="AIChatbot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:AIChatbot"
+        mc:Ignorable="d"
+        Title="AI Chatbot" Height="600" Width="450" Background="DarkOliveGreen"
+        WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize">
+    <Grid>
+        <!-- Chat Header -->
+        <Border Background="#333" Height="50" VerticalAlignment="Top">
+            <Grid>
+                <TextBlock Text="💬 AI Chatbot" Foreground="White" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <Button Content="❌" Width="30" Height="30" FontSize="16"
+                 Background="Transparent" Foreground="White"
+                 BorderBrush="Transparent" HorizontalAlignment="Left"
+                 VerticalAlignment="Center" Click="CloseApp" RenderTransformOrigin="-0.224,0.552" Margin="409,0,0,0">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Foreground" Value="White"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="FontSize" Value="16"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Foreground" Value="Red"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+        </Border>
+
+        <!-- Chat Messages -->
+        <ScrollViewer x:Name="ChatScroll" VerticalScrollBarVisibility="Auto" Margin="10,60,10,60">
+            <StackPanel x:Name="ChatPanel" />
+        </ScrollViewer>
+
+        <!-- Message Input Area -->
+        <Border Background="#444" Height="50" VerticalAlignment="Bottom">
+            <StackPanel Orientation="Horizontal" Margin="10">
+                <TextBox x:Name="txtUserInput" Width="320" Height="30" Background="#555" Foreground="White" 
+                         BorderBrush="Transparent" FontSize="14" Padding="5" TextWrapping="Wrap"/>
+                <Button Content="Send" Width="70" Height="30" Click="SendMessage"
+                        Background="#00bfa5" Foreground="White" FontSize="14" 
+                        BorderBrush="Transparent" Margin="10,0,0,0"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDA2oj3bBYM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinudev.tv\\source\\repos\\AIChatbot\\AIChatbot\\AIChatbot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\materialdesign.dialogplus\\1.1.0\\materialdesign.dialogplus.1.1.0.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\materialdesigncolors\\5.2.1\\materialdesigncolors.5.2.1.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\system.io.pipelines\\9.0.3\\system.io.pipelines.9.0.3.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\system.net.http.json\\9.0.3\\system.net.http.json.9.0.3.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\system.text.encodings.web\\9.0.3\\system.text.encodings.web.9.0.3.nupkg.sha512",
+    "C:\\Users\\vinudev.tv\\.nuget\\packages\\system.text.json\\9.0.3\\system.text.json.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
